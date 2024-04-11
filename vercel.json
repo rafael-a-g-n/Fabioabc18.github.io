@@ -1,10 +1,5 @@
 {
   "version": 2,
-  "functions": {
-    "api/**/*.py": {
-      "runtime": "@vercel/python@3.9"
-    }
-  },
   "routes": [
     {
       "src": "/static/(.*)",
@@ -12,7 +7,7 @@
     },
     {
       "src": "/(.*)",
-      "dest": "api/$1.py"
+      "dest": "OXL/wsgi.py"
     }
   ],
   "outputDirectory": "staticfiles"
