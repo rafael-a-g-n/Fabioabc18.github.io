@@ -7,7 +7,7 @@
     },
     {
       "src": "/(.*)",
-      "dest": "OXL/wsgi.py"
+      "dest": "/api/server.py"
     }
   ],
   "outputDirectory": "staticfiles"
